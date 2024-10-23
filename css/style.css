@@ -1,0 +1,81 @@
+/* General page styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1c1c1c; /* Dark background for contrast */
+    color: #ffffff; /* Light text */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #ff66c4; /* Accent color for the title */
+    margin-top: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    color: #dddddd;
+    margin: 20px auto;
+    max-width: 600px;
+    line-height: 1.5;
+}
+
+.container {
+    padding: 20px;
+    margin-top: 50px;
+}
+
+#email-form {
+    margin-top: 30px;
+}
+
+input[type="email"] {
+    padding: 12px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 2px solid #ff66c4;
+    width: 80%;
+    max-width: 400px;
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #ff66c4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #ff3399; /* Darker on hover */
+}
+
+/* Counter styling */
+#click-counter {
+    font-size: 1.5em;
+    color: #ff66c4;
+    margin-top: 20px;
+}
+
+/* Footer styling */
+footer {
+    margin-top: 40px;
+    font-size: 0.8em;
+    color: #888888;
+}
+
+/* Responsive styling */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    input[type="email"], button {
+        width: 90%;
+    }
+}
